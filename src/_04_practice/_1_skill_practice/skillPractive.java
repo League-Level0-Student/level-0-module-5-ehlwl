@@ -8,9 +8,9 @@ public class skillPractive {
 		public static void main(String[] args) {
 
 		skillPractive skills = new skillPractive();
-		           //skills.skill1();
-		         //  skills.skill2();
-		         //  skills.skill3();
+		           skills.skill1();
+		           skills.skill2();
+		           skills.skill3();
 		           skills.skill4();
 		           skills.skill5();
 		}
@@ -118,7 +118,8 @@ public class skillPractive {
 
 		void skill5() { // In a pop-up, ask the user for the name of their school
 
-
+			String s = JOptionPane.showInputDialog("what is name of your school?");
+			JOptionPane.showMessageDialog(null, s + " is a fantastic school.");
 
 		// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message.
 
